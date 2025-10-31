@@ -1,0 +1,17 @@
+import { StarryBackground } from "@/components/StarryBackground";
+import { Navbar } from "@/components/Navbar";
+import { Hero } from "@/components/Hero";
+import { Footer } from "@/components/Footer";
+
+export default function Home() {
+  return (
+    <>
+      <StarryBackground />
+      <Navbar />
+      <main>
+        <Hero />
+      </main>
+      <Footer />
+    </>
+  );
+}
